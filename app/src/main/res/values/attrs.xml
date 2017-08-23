@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 定义我们的属性-->
+    <!--我们定义了字体，字体颜色，字体大小3个属性，format是指该属性的取值类型，
+    一共有：string,color,demension,integer,enum,reference,float,boolean,fraction,flag;
+    关于format可参考：http://blog.csdn.net/ethan_xue/article/details/7315064-->
+
+    <!--<attr name="titleText" format="string"> </attr>-->
+    <!--<attr name="titleTextColor" format="color"> </attr>-->
+    <!--<attr name="titleTextSize" format="dimension"> </attr>-->
+    <!--&lt;!&ndash; 声明我们的整个样式&ndash;&gt;-->
+    <!--<declare-styleable name="CustomTitleView">-->
+        <!--<attr name="titleText"/>-->
+        <!--<attr name="titleTextColor"/>-->
+        <!--<attr name="titleTextSize"/>-->
+    <!--</declare-styleable>-->
+
+    <!-- 当然，也可以在声明时候定义属性 如下：-->
+
+    <declare-styleable name="ProgressView">
+        <attr name="bgWidth" format="integer"> </attr>
+        <attr name="bgColor" format="color"> </attr>
+        <attr name="bgCornerRadius" format="integer"> </attr>
+        <attr name="innerRadius" format="integer"> </attr>
+        <attr name="innerColor" format="color"> </attr>
+        <attr name="edgeColor" format="dimension"> </attr>
+        <attr name="ringWidth" format="integer"> </attr>
+        <attr name="ringColor" format="dimension"> </attr>
+        <attr name="percentColor" format="color"> </attr>
+        <attr name="percentSize" format="integer"> </attr>
+    </declare-styleable>
+
+</resources>
